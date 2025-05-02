@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.15" pages="2">
   <diagram name="第 1 页" id="4TqutR9kN0xEOKNRt9UP">
     <mxGraphModel dx="932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0" adaptiveColors="none">
       <root>
@@ -66,6 +66,191 @@
         </mxCell>
         <mxCell id="SN9uG7vAtp5vsoG-d6Sv-19" value="&lt;ol start=&quot;1&quot; class=&quot;qk-md-ol&quot; style=&quot;margin: 0px; padding: 0px; list-style: auto; padding-inline-start: var(--list-padding-inline-start,0); color: rgb(25, 35, 56); font-family: arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: 0.3px; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li class=&quot;qk-md-li complete&quot; style=&quot;margin-top: 0px; margin-right: ; margin-bottom: 12px; margin-left: ; padding: 0px 0px 0px 6px; position: relative; list-style-position: inside; letter-spacing: 0.3px; color: var(--color-li-default); font-weight: 400; animation: auto ease 0s 1 normal none running none;&quot;&gt;&lt;strong class=&quot;qk-md-strong complete&quot; style=&quot;margin: 0px; padding: 0px; font-style: normal; font-weight: var(--base-text-weight-semibold,700); animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;MTU（Maximum Transmission Unit）&lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;&lt;/span&gt;&lt;ul class=&quot;qk-md-ul&quot; style=&quot;margin: 11px 0px; padding: 0px; list-style: disc; padding-inline-start: var(--list-padding-inline-start,0);&quot;&gt;&lt;li class=&quot;qk-md-li complete&quot; style=&quot;margin: 0px 0px 12px; padding: 0px 0px 0px 26px; position: relative; color: var(--color-li-default); animation: auto ease 0s 1 normal none running none;&quot;&gt;&lt;strong class=&quot;qk-md-strong complete&quot; style=&quot;margin: 0px; padding: 0px; font-style: normal; font-weight: var(--base-text-weight-semibold,700); animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;层级&lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;：数据链路层（OSI第2层），由硬件或协议定义。&lt;/span&gt;&lt;/li&gt;&lt;li class=&quot;qk-md-li complete&quot; style=&quot;margin: 0px 0px 12px; padding: 0px 0px 0px 26px; position: relative; color: var(--color-li-default); animation: auto ease 0s 1 normal none running none;&quot;&gt;&lt;strong class=&quot;qk-md-strong complete&quot; style=&quot;margin: 0px; padding: 0px; font-style: normal; font-weight: var(--base-text-weight-semibold,700); animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;作用&lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;：限制单个数据帧的最大长度（以字节为单位），例如以太网默认MTU为1500字节（包含IP头和TCP头）。&lt;/span&gt;&lt;/li&gt;&lt;li class=&quot;qk-md-li complete&quot; style=&quot;margin: 0px 0px 12px; padding: 0px 0px 0px 26px; position: relative; color: var(--color-li-default); animation: auto ease 0s 1 normal none running none;&quot;&gt;&lt;strong class=&quot;qk-md-strong complete&quot; style=&quot;margin: 0px; padding: 0px; font-style: normal; font-weight: var(--base-text-weight-semibold,700); animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;分片机制&lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;：若IP数据报超过MTU，需在网络层（IP层）分片传输，接收端重组。分片可能导致效率降低和丢包风险。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li class=&quot;qk-md-li complete&quot; style=&quot;margin-top: 0px; margin-right: ; margin-bottom: 12px; margin-left: ; padding: 0px 0px 0px 6px; position: relative; list-style-position: inside; letter-spacing: 0.3px; color: var(--color-li-default); font-weight: 400; animation: auto ease 0s 1 normal none running none;&quot;&gt;&lt;strong class=&quot;qk-md-strong complete&quot; style=&quot;margin: 0px; padding: 0px; font-style: normal; font-weight: var(--base-text-weight-semibold,700); animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;MSS（Maximum Segment Size）&lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;&lt;/span&gt;&lt;ul class=&quot;qk-md-ul&quot; style=&quot;margin: 11px 0px; padding: 0px; list-style: disc; padding-inline-start: var(--list-padding-inline-start,0);&quot;&gt;&lt;li class=&quot;qk-md-li complete&quot; style=&quot;margin: 0px 0px 12px; padding: 0px 0px 0px 26px; position: relative; color: var(--color-li-default); animation: auto ease 0s 1 normal none running none;&quot;&gt;&lt;strong class=&quot;qk-md-strong complete&quot; style=&quot;margin: 0px; padding: 0px; font-style: normal; font-weight: var(--base-text-weight-semibold,700); animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;层级&lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;：传输层（OSI第4层），仅适用于TCP协议。&lt;/span&gt;&lt;/li&gt;&lt;li class=&quot;qk-md-li complete&quot; style=&quot;margin: 0px 0px 12px; padding: 0px 0px 0px 26px; position: relative; color: var(--color-li-default); animation: auto ease 0s 1 normal none running none;&quot;&gt;&lt;strong class=&quot;qk-md-strong complete&quot; style=&quot;margin: 0px; padding: 0px; font-style: normal; font-weight: var(--base-text-weight-semibold,700); animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;作用&lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;：限制单个TCP报文段的最大有效载荷（不包含TCP头和IP头）。&lt;/span&gt;&lt;/li&gt;&lt;li class=&quot;qk-md-li complete&quot; style=&quot;margin: 0px 0px 12px; padding: 0px 0px 0px 26px; position: relative; color: var(--color-li-default); animation: auto ease 0s 1 normal none running none;&quot;&gt;&lt;strong class=&quot;qk-md-strong complete&quot; style=&quot;margin: 0px; padding: 0px; font-style: normal; font-weight: var(--base-text-weight-semibold,700); animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;分段机制&lt;/span&gt;&lt;/strong&gt;&lt;span class=&quot;qk-md-text complete&quot; style=&quot;margin: 0px; padding: 0px; animation: auto ease 0s 1 normal none running none; opacity: 1;&quot;&gt;：TCP在传输层将数据按MSS分段，避免IP分片。分段由TCP自身处理，无需网络层参与。&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="40" y="350" width="770" height="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aAm2y3sNHdF66kvT7jnA" name="TLS">
+    <mxGraphModel dx="932" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-6" value="" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;endArrow=none;startFill=0;" edge="1" parent="1" source="I_0CBgndCcE_jrkm0DA0-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-1" value="浏览器" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-8" value="" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;endArrow=none;startFill=0;" edge="1" parent="1" source="I_0CBgndCcE_jrkm0DA0-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-2" value="服务器" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="480" y="90" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-9" value="TCP 三次握手" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;dashed=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-10" value="TLS 四次握手" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;dashed=1;fontSize=20;fillColor=#1ba1e2;fontColor=#000000;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="190" y="330" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-11" value="数据加密通信" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;dashed=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-15" value="" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;endArrow=none;startFill=0;" edge="1" parent="1" source="I_0CBgndCcE_jrkm0DA0-12" target="I_0CBgndCcE_jrkm0DA0-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-12" value="浏览器" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="827" y="90" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-13" value="服务器" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="90" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-14" value="" style="shape=waypoint;sketch=1;size=6;pointerEvents=1;points=[];fillColor=#d5e8d4;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=20;fontFamily=Architects Daughter;strokeColor=#82b366;rounded=0;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="885" y="1110" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-16" value="" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;endArrow=none;startFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1209.5" y="170" as="sourcePoint" />
+            <mxPoint x="1200" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-17" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="910" y="249.5" as="sourcePoint" />
+            <mxPoint x="1210" y="250" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-18" value="Client Hello" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="810" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-19" value="协议版本、加密套件、&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Client Random&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="910" y="211" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-20" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="1210" y="300" as="sourcePoint" />
+            <mxPoint x="910" y="300" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-21" value="Server Hello" style="text;whiteSpace=wrap;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-22" value="协议版本、加密套件、Server Random、&#xa;&#xa;                    证书" style="text;whiteSpace=wrap;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="910" y="270" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="905" y="370" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-24" value="&lt;span style=&quot;font-size: 16px; text-align: center; background-color: rgb(236, 236, 236);&quot;&gt;(验证CA链、域名、有效期)&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;" edge="1" target="I_0CBgndCcE_jrkm0DA0-23" parent="1">
+          <mxGeometry x="-0.0588" relative="1" as="geometry">
+            <mxPoint x="910" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="940" y="380" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-25" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="901" y="700" as="sourcePoint" />
+            <mxPoint x="1201" y="700" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-26" value="用证书里RSA公钥加密 “前向秘钥”,&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;将之前通信内容生成摘要后&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;用会话秘钥加密&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="890" y="670" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-28" value="证书验证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="810" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="902" y="460" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-34" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;生成&lt;b style=&quot;&quot;&gt;随机数&lt;/b&gt;作为前向秘钥&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;" edge="1" target="I_0CBgndCcE_jrkm0DA0-33" parent="1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
+            <mxPoint x="907" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="937" y="470" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="900" y="550" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-36" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;通过 &lt;b&gt;Client Random、&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ServerRandom、前向秘钥&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;生成会话秘钥&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;" edge="1" target="I_0CBgndCcE_jrkm0DA0-35" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="935" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="790" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-39" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;" edge="1" target="I_0CBgndCcE_jrkm0DA0-38" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="770" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1230" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-41" value="RSA私钥解密 “前向秘钥“" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="770" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="910" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-45" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;通过&amp;nbsp;&lt;b&gt;Client Random、&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;ServerRandom、前向秘钥&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;生成会话秘钥&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;" edge="1" target="I_0CBgndCcE_jrkm0DA0-44" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="890" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1230" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-46" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1195" y="1010" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-47" value="&lt;span style=&quot;font-size: 16px; text-align: center; background-color: rgb(236, 236, 236);&quot;&gt;1、将之前通信内容生成摘要，记为A;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px; text-align: center; background-color: rgb(236, 236, 236);&quot;&gt;2、用会话秘钥解密浏览器摘要，记为B;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px; text-align: center; background-color: rgb(236, 236, 236);&quot;&gt;3、校验A、B是否一致&lt;/span&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;" edge="1" target="I_0CBgndCcE_jrkm0DA0-46" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="990" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1230" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-48" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="1200" y="1080" as="sourcePoint" />
+            <mxPoint x="900" y="1080" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-49" value="将之前通信内容生成摘要后&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;用会话秘钥加密&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="885" y="1080" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-50" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1.007;exitY=0.117;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="I_0CBgndCcE_jrkm0DA0-10">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="640" y="360" as="sourcePoint" />
+            <mxPoint x="810" y="130" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_0CBgndCcE_jrkm0DA0-51" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="I_0CBgndCcE_jrkm0DA0-10">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="660" y="380" as="sourcePoint" />
+            <mxPoint x="830" y="1120" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
