@@ -152,7 +152,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="84evJgnpFXOQ0hdBzWu8-46" value="20 Byte" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="540" y="460" width="100" height="40" as="geometry" />
+          <mxGeometry x="540" y="480" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="84evJgnpFXOQ0hdBzWu8-48" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;curved=1;startArrow=block;startFill=1;" edge="1" parent="1">
           <mxGeometry width="120" relative="1" as="geometry">
@@ -244,8 +244,8 @@
         <mxCell id="84evJgnpFXOQ0hdBzWu8-58" value="MSS：最大报文长度&lt;div&gt;SACK：支持非连续数据块确认&lt;/div&gt;&lt;div&gt;窗口缩放：扩展接收窗口范围&lt;/div&gt;&lt;div&gt;时间戳：用于RTT计算和防止序号回绕&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="125" y="640" width="350" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="QYoU1OEquIz1MVdnVfnx-1" value="SYN：解决乱序问题&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;ACK：解决丢包问题&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="545" y="380" width="210" height="80" as="geometry" />
+        <mxCell id="QYoU1OEquIz1MVdnVfnx-1" value="SYN：解决乱序和重复问题&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;ACK：解决丢包问题&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;" vertex="1" parent="1">
+          <mxGeometry x="545" y="390" width="265" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QYoU1OEquIz1MVdnVfnx-2" value="数据链路层报文" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="230" y="20" width="170" height="40" as="geometry" />
