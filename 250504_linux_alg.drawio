@@ -1,9 +1,76 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.15">
-  <diagram name="第 1 页" id="XaDD9N2BOu0cdTsyckt8">
-    <mxGraphModel>
+  <diagram name="页面置换" id="XaDD9N2BOu0cdTsyckt8">
+    <mxGraphModel dx="932" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZPa10mr74njSyh83uHK5-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="339" y="110" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-2" value="页面&amp;nbsp;&lt;div&gt;1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="ZPa10mr74njSyh83uHK5-4">
+          <mxGeometry width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-3" value="访问标识&lt;div&gt;1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="ZPa10mr74njSyh83uHK5-4">
+          <mxGeometry x="60" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-6" value="页面&amp;nbsp;&lt;div&gt;4&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="ZPa10mr74njSyh83uHK5-5">
+          <mxGeometry width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-7" value="访问标识&lt;div&gt;0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="ZPa10mr74njSyh83uHK5-5">
+          <mxGeometry x="60" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="110" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-9" value="页面&amp;nbsp;&lt;div&gt;19&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="ZPa10mr74njSyh83uHK5-8">
+          <mxGeometry width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-10" value="访问标识&lt;div&gt;0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="ZPa10mr74njSyh83uHK5-8">
+          <mxGeometry x="60" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="310" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-12" value="页面&amp;nbsp;&lt;div&gt;9&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="ZPa10mr74njSyh83uHK5-11">
+          <mxGeometry width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-13" value="访问标识&lt;div&gt;1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="ZPa10mr74njSyh83uHK5-11">
+          <mxGeometry x="60" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="339" y="370" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-15" value="页面&amp;nbsp;&lt;div&gt;8&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="ZPa10mr74njSyh83uHK5-14">
+          <mxGeometry width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-16" value="访问标识&lt;div&gt;0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="ZPa10mr74njSyh83uHK5-14">
+          <mxGeometry x="60" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-17" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.056;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ZPa10mr74njSyh83uHK5-1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="340" y="280" as="sourcePoint" />
+            <mxPoint x="397.5" y="320" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-24" value="" style="shape=stencil(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);lineShape=1;strokeColor=#b85450;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;dashed=1;dashPattern=12 12;shadow=0;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="307.1430215063515" y="251.39170920134302" width="116.3920091149696" height="76.12768039236255" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-25" value="" style="shape=stencil(lVbZctswDPwavWJAgudzmv5HZuLUmrp2xnGvvy9Uha5ASdvJmw4suTgWwCAPb8en18Pg+e12vXw9/Byfb8dBPg3ej+fj4Tre9GmQx0EeXi7Xw5fr5fv5eX5/fZosp6dvlx/TCb9mXK2U8oTy/Pv9CyX398Pn2f40npf2Qs4Zey+Uwj6g6O9kAJIp8D4gC3k2gOgo+H1A8iTWhRQgJYlUi/VZSUYAEMrVAhJx3QdoEGsX1YIBgaq3gEoB+OAqOXuDYyYGcXVC4vorMkh13vABlYYGifsgFUCIqQZrHygUZM/d+Y4KiKmebwuvVBLAR/mLtU+tTrYrm9jGs8SWk90EdIQCMbhAc+xtUaiYUESnKsr9De93brvMGz5koDVVQukoZQxQrXXSYXKIUmpJugN8U982IDQCd0AkQZRc6z93gHYkJM7UdLJQDoNMe0dupeYKpOMieVkBQKZr61dLRiCqq8KYXEa1upoKyhBqza2TBvgwhc5fPQG0u4/aa4CizUCs0AGprZc0QEiUQBUFTYEdIuJbA9kExELO3qBeRVAUOsW8bZCJAphSKVKySQiwX6fcavJOqHXM7XngiC0fB8/PgYo9nymBAOXSj2WGM1OboYTeHmhGO1Xq+QhovzpeYuz89Wg1UpFJF88A/FUJxm4zairdttcKtvGJUGOLhaABcpP13gUf2wX/a68P/xbPl/F0mvfW5f9+UdVP85Irj38A);lineShape=1;strokeColor=#b85450;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="304.26189438191454" y="304.17843793325346" width="4.561280814800739" height="10.234015953813014" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-26" value="" style="shape=stencil(rVfZbhsxDPyafSUk6n5O0/8IEKde1LUDx+nx9+Viq61JW9MWKOCHPTimSM6MtFN4eNs/ve4mdm+X8+nz7tv8fNlP4cPEPB/3u/N8kaspPE7h4eV03n06n96Pz+v969MSuVx9OX1d/uH7igvU2gJi92N94Gm5k9/HNfwwH6/CvSOXdXwk7wEgUQwKwJlcGANkAVFnCIUCyMCNSlSA2KiCGsINIDVyAJC8bVLOVNwYkKMtujjyZQwomYLOUDysoRViZwEMltQq+RtAqxDQDEAmjQCNkim6UAJFC8BkqFI04pIT9hlEpphgiqoBzfVZjgBBF9EiNVREpWwABQMKlaoBjTLqa6ZaLKCBNrVk6bosMkIAa0FITocyRMomAxOjtoogzOAK1YwBXgMCMV5SMXStffbDorXPlNQlMprDL5PYAEwJA+qNqBlNuli2CiAhestckwYECmhJQm896cV5gBsvAjJzcBBwT6Ox9+FvbUCcBHmfvNZraqE7+qhN1UiuwE1LAO5GcoxF7TXgqg//CSGT4marQLLOm19fyboA0ck+Z3YhURUDQJDGavNbZA0YzrILaf7V7UBxn06NvBZdrpRABs/WB5KcQAD9pIc6QWS4zflu1tt5ZjP0QbzZdznBfddR1uSWI1oCXHXE2gLkCVKP9FtPwAsTQX9u5OxDN/9BvBmYHBkZsNTZnaH0BQ7CqxkXFKYwWps8Q4/fjkQ93HWDvU9na79YwcGar4NHtn88mv8xXC5+fwW8zIfD+hFx/d5+Ncij9YsjPP4E);lineShape=1;strokeColor=#b85450;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="307.38848156371523" y="302.3888231896665" width="21.54317213590889" height="4.215078708418105" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-27" value="&lt;span style=&quot;color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-variant-ligatures: no-common-ligatures; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;时钟页面置换算法&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
