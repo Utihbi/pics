@@ -71,6 +71,9 @@
         <mxCell id="ZPa10mr74njSyh83uHK5-27" value="&lt;span style=&quot;color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-variant-ligatures: no-common-ligatures; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;时钟页面置换算法&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="130" y="40" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ZPa10mr74njSyh83uHK5-29" value="AQS" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=100;" vertex="1" parent="1">
+          <mxGeometry x="180" y="610" width="453" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
