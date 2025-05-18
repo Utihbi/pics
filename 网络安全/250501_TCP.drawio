@@ -457,7 +457,7 @@
           <mxGeometry x="1200" y="510" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v0xgpXvzJXiBcEgi4yEg-57" value="Time_wait阶段等待2MSL原因：&lt;div&gt;1、 FIN可以重传（当未收到ACK时）；&lt;/div&gt;&lt;div&gt;2、保证后续新的连接不会消费历史脏数据，因为数据传递经过2MSL，就会被丢弃掉了。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;" vertex="1" parent="1">
-          <mxGeometry x="935" y="1040" width="455" height="160" as="geometry" />
+          <mxGeometry x="900" y="1040" width="740" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
