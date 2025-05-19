@@ -262,7 +262,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="uPEKU84ufaAsc0UIKasA-1" value="定时任务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;fillColor=#F2CC8F;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-85" y="13" width="100" height="751" as="geometry" />
+          <mxGeometry x="-85" y="13" width="100" height="1137" as="geometry" />
         </mxCell>
         <mxCell id="uPEKU84ufaAsc0UIKasA-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;fillColor=#F2CC8F;fontSize=20;" parent="uPEKU84ufaAsc0UIKasA-1" vertex="1">
           <mxGeometry x="48" y="105" width="10" height="40" as="geometry" />
@@ -316,6 +316,39 @@
             <mxPoint x="53" y="608" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="83" y="638" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lRzTRNDs-iChwDO12vaI-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" vertex="1" parent="uPEKU84ufaAsc0UIKasA-1">
+          <mxGeometry x="43" y="757" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lRzTRNDs-iChwDO12vaI-2" value="项目删除，定时删除项目角色与人员关系" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" edge="1" target="lRzTRNDs-iChwDO12vaI-1" parent="uPEKU84ufaAsc0UIKasA-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="737" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="78" y="767" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lRzTRNDs-iChwDO12vaI-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" vertex="1" parent="uPEKU84ufaAsc0UIKasA-1">
+          <mxGeometry x="43" y="857" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lRzTRNDs-iChwDO12vaI-4" value="项目删除是否超过30天，彻底清理；" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" edge="1" target="lRzTRNDs-iChwDO12vaI-3" parent="uPEKU84ufaAsc0UIKasA-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="837" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="78" y="867" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lRzTRNDs-iChwDO12vaI-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" vertex="1" parent="uPEKU84ufaAsc0UIKasA-1">
+          <mxGeometry x="43" y="977" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lRzTRNDs-iChwDO12vaI-6" value="物料删除是否超过30天，彻底清理l" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" edge="1" target="lRzTRNDs-iChwDO12vaI-5" parent="uPEKU84ufaAsc0UIKasA-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="957" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="78" y="987" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -479,7 +512,7 @@
           <mxGeometry x="326" y="300" width="176" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sDlLcZeJtrM_A4pXnS0v-44" value="项目ID、人员ID、角色标志（8421）&lt;div&gt;eg ：&lt;br&gt;&lt;div&gt;雪花ID、雪花ID、1&amp;nbsp; =》 创建者&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;雪花ID、雪花ID、2&amp;nbsp; =》 编辑者&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;雪花ID、雪花ID、4&amp;nbsp; =》 查看者&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;雪花ID、雪花ID、8&amp;nbsp; =》 管理员&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;" parent="1" vertex="1">
-          <mxGeometry x="130" y="110" width="390" height="150" as="geometry" />
+          <mxGeometry x="130" y="100" width="390" height="160" as="geometry" />
         </mxCell>
         <mxCell id="sDlLcZeJtrM_A4pXnS0v-67" value="雪花ID&lt;div&gt;&amp;nbsp;1 bit&amp;nbsp; &amp;nbsp; 41 bit&amp;nbsp; &amp;nbsp; &amp;nbsp; 10 bit&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 12 bit&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;" parent="1" vertex="1">
           <mxGeometry x="70" y="430" width="500" height="160" as="geometry" />
