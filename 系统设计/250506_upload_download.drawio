@@ -257,12 +257,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_u2j5C9r0qmByQ4ML1_r" name="定时任务">
-    <mxGraphModel dx="1332" dy="648" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1759" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="uPEKU84ufaAsc0UIKasA-1" value="定时任务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;fillColor=#F2CC8F;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-85" y="13" width="100" height="549" as="geometry" />
+          <mxGeometry x="-85" y="13" width="100" height="751" as="geometry" />
         </mxCell>
         <mxCell id="uPEKU84ufaAsc0UIKasA-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;fillColor=#F2CC8F;fontSize=20;" parent="uPEKU84ufaAsc0UIKasA-1" vertex="1">
           <mxGeometry x="48" y="105" width="10" height="40" as="geometry" />
@@ -305,6 +305,17 @@
             <mxPoint x="52" y="479" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="82" y="509" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bqwfkhdlq-CaFCmgHTlP-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="uPEKU84ufaAsc0UIKasA-1">
+          <mxGeometry x="48" y="628" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bqwfkhdlq-CaFCmgHTlP-2" value="定时扫描离职人员，清理退出项目，项目人员均离职，清理项目" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" edge="1" target="bqwfkhdlq-CaFCmgHTlP-1" parent="uPEKU84ufaAsc0UIKasA-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="53" y="608" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="83" y="638" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -473,7 +484,7 @@
         <mxCell id="sDlLcZeJtrM_A4pXnS0v-67" value="雪花ID&lt;div&gt;&amp;nbsp;1 bit&amp;nbsp; &amp;nbsp; 41 bit&amp;nbsp; &amp;nbsp; &amp;nbsp; 10 bit&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 12 bit&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;" parent="1" vertex="1">
           <mxGeometry x="70" y="430" width="500" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="sDlLcZeJtrM_A4pXnS0v-68" value="ID：雪花ID&lt;div&gt;缓存区域：int&lt;/div&gt;&lt;div&gt;密级：1,2,3,4&lt;/div&gt;&lt;div&gt;是否删除：&lt;/div&gt;&lt;div&gt;创建时间：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;" parent="1" vertex="1">
+        <mxCell id="sDlLcZeJtrM_A4pXnS0v-68" value="ID：雪花ID&lt;div&gt;缓存区域：int&lt;/div&gt;&lt;div&gt;密级：1,2,3,4&lt;/div&gt;&lt;div&gt;是否删除：&lt;/div&gt;&lt;div&gt;创建时间：&lt;/div&gt;&lt;div&gt;密级截止时间：&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;" parent="1" vertex="1">
           <mxGeometry x="70" y="-190" width="180" height="160" as="geometry" />
         </mxCell>
       </root>
