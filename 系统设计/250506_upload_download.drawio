@@ -344,12 +344,13 @@
         <mxCell id="lRzTRNDs-iChwDO12vaI-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" vertex="1" parent="uPEKU84ufaAsc0UIKasA-1">
           <mxGeometry x="43" y="977" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="lRzTRNDs-iChwDO12vaI-6" value="物料删除是否超过30天，彻底清理l" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" edge="1" target="lRzTRNDs-iChwDO12vaI-5" parent="uPEKU84ufaAsc0UIKasA-1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="lRzTRNDs-iChwDO12vaI-6" value="物料删除是否超过30天，彻底清理；" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=20;" edge="1" target="lRzTRNDs-iChwDO12vaI-5" parent="uPEKU84ufaAsc0UIKasA-1">
+          <mxGeometry x="0.0118" relative="1" as="geometry">
             <mxPoint x="48" y="957" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="78" y="987" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
