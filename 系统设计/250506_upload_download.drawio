@@ -262,7 +262,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="uPEKU84ufaAsc0UIKasA-1" value="定时任务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;fillColor=#F2CC8F;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-85" y="13" width="100" height="1137" as="geometry" />
+          <mxGeometry x="-85" y="13" width="100" height="1377" as="geometry" />
         </mxCell>
         <mxCell id="uPEKU84ufaAsc0UIKasA-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=#E07A5F;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#393C56;fillColor=#F2CC8F;fontSize=20;" parent="uPEKU84ufaAsc0UIKasA-1" vertex="1">
           <mxGeometry x="48" y="105" width="10" height="40" as="geometry" />
@@ -351,6 +351,17 @@
               <mxPoint x="78" y="987" />
             </Array>
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HVcJu50E7JwFJiLDfvcx-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="uPEKU84ufaAsc0UIKasA-1">
+          <mxGeometry x="43" y="1107" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HVcJu50E7JwFJiLDfvcx-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;项目到期，人员在项目中到期提前一周提醒&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" target="HVcJu50E7JwFJiLDfvcx-1" parent="uPEKU84ufaAsc0UIKasA-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="1087" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="78" y="1117" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
@@ -681,16 +692,28 @@
           <mxGeometry x="30" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="enIb5jqSXXW4kac7c0uQ-8" value="kafka" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=1;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=30;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="30" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="enIb5jqSXXW4kac7c0uQ-9" value="子任务消息" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="200" y="525" width="220" height="50" as="geometry" />
+          <mxGeometry x="200" y="660" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ejCrBBBXOmDsLDT7kq7K-1" value="上传/下载数据统计" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="210" y="340" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ejCrBBBXOmDsLDT7kq7K-2" value="数据缓存" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="480" y="340" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VaAjq-94g1NRIS9RmTx4-1" value="项目公告（ 1 天）" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="210" y="430" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VaAjq-94g1NRIS9RmTx4-2" value="数据缓存" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="480" y="430" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VaAjq-94g1NRIS9RmTx4-3" value="项目、人员到期提前7天" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="210" y="520" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VaAjq-94g1NRIS9RmTx4-4" value="数据缓存" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
