@@ -1,9 +1,33 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.1.5">
   <diagram name="第 1 页" id="tXt6ma47AfMmdzSFRYHt">
-    <mxGraphModel>
+    <mxGraphModel dx="932" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="quNuZrDpuWshZtyfDniM-3" value="初级工程师" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quNuZrDpuWshZtyfDniM-4" value="编写代码&lt;div&gt;运用框架&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=2;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="quNuZrDpuWshZtyfDniM-5" value="&lt;font style=&quot;color: light-dark(rgb(154, 17, 17), rgb(237, 237, 237));&quot;&gt;中&lt;/font&gt;级工程师" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quNuZrDpuWshZtyfDniM-6" value="编写代码&lt;div&gt;&lt;font style=&quot;color: rgb(255, 71, 114);&quot;&gt;编写&lt;/font&gt;框架&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=2;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="330" y="300" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="quNuZrDpuWshZtyfDniM-7" value="&lt;font style=&quot;color: rgb(29, 154, 45);&quot;&gt;高&lt;/font&gt;级工程师" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quNuZrDpuWshZtyfDniM-8" value="&lt;font style=&quot;color: rgb(61, 255, 112);&quot;&gt;技术攻关&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(61, 255, 112);&quot;&gt;性能优化&lt;/font&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=2;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="quNuZrDpuWshZtyfDniM-9" value="&lt;font style=&quot;color: rgb(26, 26, 26);&quot;&gt;系统架构师&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quNuZrDpuWshZtyfDniM-10" value="&lt;font style=&quot;color: rgb(255, 71, 114);&quot;&gt;解决所有业务和技术问题&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=2;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="330" y="570" width="130" height="65" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
