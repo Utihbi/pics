@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="5">
+<mxfile host="app.diagrams.net" pages="6">
   <diagram name="沈变-宏远" id="vrqveQFJzz0r-ET-Yx7t">
     <mxGraphModel dx="975" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -609,6 +609,172 @@
         </mxCell>
         <mxCell id="wbgeLrWl1mR_UeHeVA5h-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="&lt;span style=&quot;font-family: 等线;&quot;&gt;供应商能查询到的采购订单状态范围&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="365" x="40" y="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Wv1LWaiKy8W6sihu3un4" name="采购订单推送">
+    <mxGraphModel dx="799" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XGJydRyfJltAznDLAN9S-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;丰采&lt;/span&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;ESB&lt;/div&gt;" vertex="1">
+          <mxGeometry height="790" width="100" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-10" parent="XGJydRyfJltAznDLAN9S-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#ffffff, #7f7f7f);" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="45" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-30" parent="XGJydRyfJltAznDLAN9S-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="50" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-31" edge="1" parent="XGJydRyfJltAznDLAN9S-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="XGJydRyfJltAznDLAN9S-30" value="&lt;div&gt;0、记录拉取时间&lt;/div&gt;&lt;div&gt;1、过滤子公司、供应商 白名单&lt;/div&gt;2、订单入库（保存/更新），标识待推送&lt;div&gt;3、本次是否继续（&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-family: 等线; font-size: 9.5pt;&quot;&gt;isFullFlag&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.005" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="85" y="230" />
+            </Array>
+            <mxPoint x="55" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-8" parent="XGJydRyfJltAznDLAN9S-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#ffffff, #7f7f7f);" value="" vertex="1">
+          <mxGeometry height="220" width="10" x="45" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-33" parent="XGJydRyfJltAznDLAN9S-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="50" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-12" parent="XGJydRyfJltAznDLAN9S-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="50" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-13" edge="1" parent="XGJydRyfJltAznDLAN9S-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="mbqaTL_e7nhYdSvAYatm-12" value="1、保存附件&lt;div&gt;2、订单统一模型关联&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="475" />
+            </Array>
+            <mxPoint x="55" y="445" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-14" parent="XGJydRyfJltAznDLAN9S-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="225" width="10" x="45" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-22" parent="XGJydRyfJltAznDLAN9S-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="50" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-23" edge="1" parent="XGJydRyfJltAznDLAN9S-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="mbqaTL_e7nhYdSvAYatm-22" value="标识订单已推送">
+          <mxGeometry relative="1" x="-0.005" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="85" y="680" />
+            </Array>
+            <mxPoint x="55" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;特变&lt;/span&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;SCM&lt;/div&gt;" vertex="1">
+          <mxGeometry height="790" width="100" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-12" parent="XGJydRyfJltAznDLAN9S-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="45" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-9" parent="XGJydRyfJltAznDLAN9S-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#ffffff, #7f7f7f);" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="45" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;供应商&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;ERP&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="800" width="100" x="560" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;" value="定时（15分钟）拉取采购订单">
+          <mxGeometry relative="1" width="80" x="0.0037" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="365" y="190" as="sourcePoint" />
+            <mxPoint x="135" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" value="&lt;span style=&quot;font-family: 等线; color: rgb(31, 35, 41);&quot;&gt;[子公司（沈变）编码]、&lt;/span&gt;&lt;span style=&quot;font-family: 等线; color: rgb(31, 35, 41);&quot;&gt;拉取时间&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="160" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="采购订单列表">
+          <mxGeometry relative="1" x="0.0006" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="140" y="257" as="sourcePoint" />
+            <mxPoint x="365" y="257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-32" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="订单循环拉取" vertex="1">
+          <mxGeometry height="230" width="540" x="80" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-34" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="XGJydRyfJltAznDLAN9S-33" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1、订单统一模型关联&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2、订单附件列表收集&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.005" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="405" y="410" />
+            </Array>
+            <mxPoint x="375" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XGJydRyfJltAznDLAN9S-16" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=light-dark(#ffffff, #7f7f7f);" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="605" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="通知供应商订单拉取事件">
+          <mxGeometry relative="1" width="80" x="-0.0012" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="375" y="644.71" as="sourcePoint" />
+            <mxPoint x="605" y="644.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;" value="拉取订单附件">
+          <mxGeometry relative="1" width="80" x="0.0037" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="366" y="480" as="sourcePoint" />
+            <mxPoint x="136" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="订单附件">
+          <mxGeometry relative="1" x="0.0006" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="140" y="510" as="sourcePoint" />
+            <mxPoint x="365" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;" value="拉取订单列表">
+          <mxGeometry relative="1" width="80" x="0.0037" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="605" y="690" as="sourcePoint" />
+            <mxPoint x="375" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=12;" value="拉取订单附件">
+          <mxGeometry relative="1" width="80" x="0.0037" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="605" y="820" as="sourcePoint" />
+            <mxPoint x="375" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-17" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="610" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-18" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="mbqaTL_e7nhYdSvAYatm-17" value="1、订单入库（保存/更新）&lt;div&gt;2、收集附件列表&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.391" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="645" y="730" />
+            </Array>
+            <mxPoint x="615" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="订单列表">
+          <mxGeometry relative="1" x="0.0006" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="380" y="719.43" as="sourcePoint" />
+            <mxPoint x="605" y="719.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="订单附件">
+          <mxGeometry relative="1" x="0.0006" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="380" y="840" as="sourcePoint" />
+            <mxPoint x="605" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mbqaTL_e7nhYdSvAYatm-21" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="订单附件循环拉取" vertex="1">
+          <mxGeometry height="150" width="540" x="80" y="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
